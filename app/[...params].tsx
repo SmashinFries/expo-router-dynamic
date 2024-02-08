@@ -6,5 +6,5 @@ export default function Route() {
     everything: string[];
   }>();
 
-  return <Text>Params: {everything}</Text>;
+  return <Text style={{color:'#FFF'}}>Params: {everything}</Text>;
 }
